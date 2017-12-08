@@ -25,7 +25,7 @@ function maybeTrue() {
 function doWhileLoop(array) {
     do {
       array.shift()
-      array.length--
+      // array.length--
     } while (array.length > 0 && maybeTrue());
 return array
 }
